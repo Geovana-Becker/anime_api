@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<!-- Define o tipo de documento como HTML5 -->
+<html lang="en">
+<!-- Define o idioma principal do documento como inglês -->
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>SAKURA´S ANIME</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap"
+        rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+        <div class="container px-5">
+            <a class="navbar-brand fw-bold" href="#page-top">SAKURA´S ANIME</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="#features">Sobre Nós</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="#list">Criar Lista</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" onclick="logout()">Sair</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Mashead header-->
+    <header class="masthead">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6">
+                    <!-- Mashead text and app badges-->
+                    <div class="mb-5 mb-lg-0 text-center text-lg-start">
+                        <h1 class="display-1 lh-1 mb-3">SAKURA´S ANIME</h1>
+                        <p class="lead fw-normal text-muted mb-5">O aplicativo perfeito para criar suas próprias listas de anime. Com nossa plataforma, você tem o controle total para gerenciar todos os seus animes favoritos de maneira fácil e conveniente.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <!-- Masthead device mockup feature-->
+                    <div class="masthead-device-mockup">
+                        <svg class="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="circleGradient" gradientTransform="rotate(45)">
+                                    <stop class="gradient-start-color" offset="0%"></stop>
+                                    <stop class="gradient-end-color" offset="100%"></stop>
+                                </linearGradient>
+                            </defs>
+                            <circle cx="50" cy="50" r="50"></circle>
+                        </svg><svg class="shape-1 d-none d-sm-block" viewBox="0 0 240.83 240.83"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03"
+                                transform="translate(120.42 -49.88) rotate(45)"></rect>
+                            <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03"
+                                transform="translate(-49.88 120.42) rotate(-45)"></rect>
+                        </svg><svg class="shape-2 d-none d-sm-block" viewBox="0 0 100 100"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="50"></circle>
+                        </svg>
+                        <div class="device-wrapper">
+                            <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                                <div class="screen bg-black">
+                                    <!-- PUT CONTENTS HERE:-->
+                                    <!-- * * This can be a video, image, or just about anything else.-->
+                                    <!-- * * Set the max width of your media to 100% and the height to-->
+                                    <!-- * * 100% like the demo example below.-->
+                                    <video muted="muted" autoplay="" loop="" style="max-width: 100%; height: 100%">
+                                        <source src="assets/img/demo-screen.mp4" type="video/mp4" />
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Basic features section-->
+    <section class="bg-light" id="features">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
+                <div class="col-12 col-lg-5">
+                    <h2 class="display-4 lh-1 mb-4">Sobre Nós</h2>
+                    <p class="lead fw-normal text-muted mb-5 mb-lg-0">Na Sakura's Anime, acreditamos que cada fã de anime é um curador em potencial. Nosso objetivo é fornecer a você a plataforma ideal para criar suas próprias listas personalizadas. Seja o diretor da sua jornada anime, explorando, organizando e compartilhando suas descobertas únicas. Celebre a diversidade de preferências e mergulhe na vasta coleção de animes conosco. Na Sakura's Anime, a curadoria é pessoal.</p>
+                </div>
+                <div class="col-sm-8 col-md-6">
+                    <div class="px-5 px-sm-0"><img class="img-fluid rounded-circle"
+                            src="https://gifdb.com/images/high/4k-anime-498-x-498-gif-nunu78eg5xfyhb46.webp"
+                            alt="..." /></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Quote/testimonial aside-->
+    <aside class="text-center bg-gradient-primary-to-secondary" id="list">
+        <div class="container px-5">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-xl-8">
+                    <div class="h2 fs-1 text-white mb-4">Confira aqui sua lista de animes !</div>
+                </div>
+            </div>
+    </aside>
+    <!-- App features section-->
+    <section>
+        <div class="container px-5 shadow-sm">
+            <div class="row gx-5 align-items-center">
+                <table class="table table-striped" id="animesTable">
+                    <thead class="table-light">
+                        <tr>
+                            <th scope="col">Id</th>
+                            <th scope="col">Nome</th>
+                            <th scope="col">Descriçao</th>
+                            <th scope="col">Nota</th>
+                            <th scope="col">Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>One Piece</td>
+                            <td>Tem uns piratas legais.</td>
+                            <td>10</td>
+                        </tr>
+                    </tbody>
+                </table>
+<br/><br/><br/><br/>
+                <form id="addAnimeForm">
+                    <h1>Adicionar Anime</h1>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Nome do Anime:</label>
+                        <input type="text" class="form-control" id="nomeAdd" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Descrição do Anime:</label>
+                        <input type="text" class="form-control" id="descAdd">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Nota do Anime:</label>
+                        <input type="number" class="form-control" id="notaAdd">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Adicionar</button>
+                    <br><br>
+                </form>
+                <form id="updateAnimeForm">
+                    <h1>Atualizar Anime</h1>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Id do Anime:</label>
+                        <input type="number" class="form-control" id="idUpdate" min="1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Nome do Anime:</label>
+                        <input type="text" class="form-control" id="nomeUpdate" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Descrição do Anime:</label>
+                        <input type="text" class="form-control" id="descUpdate">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Nota do Anime:</label>
+                        <input type="number" class="form-control" id="notaUpdate">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Atualizar</button>
+                    <br><br>
+                </form>
+                <form id="deleteAnimeForm">
+                    <h1>Excluir Anime</h1>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Id do Anime:</label>
+                        <input type="number" class="form-control" id="deleteId" min="1">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Excluir</button>
+                </form>
+            </div>
+            <br><br>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="bg-black text-center py-5">
+        <div class="container px-5">
+            <div class="text-white-50 small">
+                <div class="mb-2">SAKURA´S ANIME 2023 &copy. Todos os direitos reservados.</div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <script>
+        function chekAuthentication() {
+            // Verifiqua se o usuario esta autenticado comparando um valor no localstorage
+            const isAuthenticated = localStorage.getItem('authenticated');
+
+            // Se isAuthenticated for verdadeiro o úsuario está autenticado
+            return isAuthenticated === 'true';
+        }
+
+        // Verifica autenticação antes de permitir acesso ao dashboard
+        window.addEventListener('DOMContentLoaded', () => {
+            if (!chekAuthentication()) {
+                //se o úsuario não estiver autenticado redireciona para a pagina de login
+                window.location.href = 'login.html';
+            }
+        });
+        function logout() {
+            // define o valor authenticated como false  no localStorage
+            localStorage.setItem('authenticated', 'false');
+
+            // redireciona para a página de login
+            window.location.href = 'login.html';
+        }
+    </script>
+    <script>
+        const Id = localStorage.getItem('IdAnimeUsuario');
+        console.log(Id);
+
+        function getAnimes() {
+            fetch(`https://localhost:7199/Animes/${Id}`)
+                .then(response => response.json())
+                .then(data => {
+                    //console.log(data);
+                    const animesTable = document.getElementById('animesTable');
+                    const tbody = animesTable.querySelector('tbody');
+                    tbody.innerHTML = '';
+
+                    data.forEach(anime => {
+                        //console.log('aa');
+                        const row = document.createElement('tr');
+
+                        const IdCell = document.createElement('td');
+                        IdCell.textContent = anime.id;
+                        row.appendChild(IdCell);
+
+                        const nameCell = document.createElement('td');
+                        nameCell.textContent = anime.nome;
+                        row.appendChild(nameCell);
+
+                        const posicaoCell = document.createElement('td');
+                        posicaoCell.textContent = anime.descricao;
+                        row.appendChild(posicaoCell);
+
+                        const salarioCell = document.createElement('td');
+                        salarioCell.textContent = anime.nota;
+                        row.appendChild(salarioCell);
+
+                        const actionsCell = document.createElement('td')
+                        const deleteButton = document.createElement('button');
+                        deleteButton.textContent = 'Excluir';
+                        deleteButton.classList.add('btn');
+                        deleteButton.classList.add('btn-primary');
+                        deleteButton.addEventListener('click', () => deleteAnime(anime.id));
+                        actionsCell.appendChild(deleteButton);
+                        row.appendChild(actionsCell);
+
+                        tbody.appendChild(row);
+                    });
+                });
+        }
+
+        getAnimes();
+
+        function addAnime(event) {
+            event.preventDefault();
+
+            const nome = document.getElementById('nomeAdd').value;
+            const descricao = document.getElementById('descAdd').value;
+            const nota = parseInt(document.getElementById('notaAdd').value);
+
+            const anime = {
+                nome: nome,
+                descricao: descricao,
+                nota: nota,
+                idUsuario: Id
+            };
+
+            fetch('https://localhost:7199/Animes', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(anime)
+            })
+                .then(response => {
+                    if (response.ok) {
+                        document.getElementById('nomeAdd').value = '';
+                        document.getElementById('descAdd').value = '';
+                        document.getElementById('notaAdd').value = '';
+                        getAnimes();
+                    }
+                })
+        }
+
+        function updateAnime(event) {
+            event.preventDefault();
+
+            const Id1 = parseInt(document.getElementById('idUpdate').value);
+            //console.log(Id)
+            const nome = document.getElementById('nomeUpdate').value;
+            const desc = document.getElementById('descUpdate').value;
+            const nota = parseInt(document.getElementById('notaUpdate').value);
+
+            const anime = {
+                nome: nome,
+                descricao: desc,
+                nota: nota,
+                idUsuario: Id
+            };
+
+            fetch(`https://localhost:7199/Animes/${Id1}`, {
+                method: 'PUT',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(anime)
+            })
+                .then(response => {
+                    if (response.ok) {
+                        document.getElementById('nomeUpdate').value = '';
+                        document.getElementById('descUpdate').value = '';
+                        document.getElementById('notaUpdate').value = '';
+                        getAnimes();
+                    }
+                });
+        }
+
+        function deleteAnime(Id2) {
+            fetch(`https://localhost:7199/Animes/${Id2}`, {
+                method: 'DELETE'
+            })
+                .then(response => {
+                    if (response.ok) {
+                        getAnimes();
+                    }
+                });
+        }
+
+
+        document.getElementById('updateAnimeForm').addEventListener('submit', updateAnime);
+        document.getElementById('addAnimeForm').addEventListener('submit', addAnime);
+        document.getElementById('deleteAnimeForm').addEventListener('submit', event => {
+            event.preventDefault();
+            const Id2 = parseInt(document.getElementById('deleteId').value);
+            deleteAnime(Id2);
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="title-text">
+            <div class="title login">Login</div>
+            <div class="title signup">Criar Conta</div>
+        </div>
+        <div class="form-container">
+            <div class="slide-controls">
+                <input type="radio" name="slide" id="login" checked>
+                <input type="radio" name="slide" id="signup">
+                <label for="login" class="slide login">Login</label>
+                <label for="signup" class="slide signup">Criar Conta</label>
+                <div class="slider-tab"></div>
+            </div>
+            <div class="form-inner">
+                <form id="loginForm" class="login">
+                    <div class="field">
+                        <input type="text" placeholder="Digite seu usuário" id="nomeLogin" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Digite sua senha" id="senhaLogin" required>
+                    </div>
+                    <div class="field btn">
+                        <div class="btn-layer"></div>
+                        <input type="submit" onclick="login()" value="Login">
+                    </div>
+                    <div class="signup-link">Não tem uma conta? <a href="">Criar uma agora</a></div>
+                </form>
+                <form id="registroForm" class="signup">
+                    <div class="field">
+                        <input type="text" id="addNome" placeholder="Digite seu usuário" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" id="addSenha" placeholder="Digite sua senha" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" id="repeteSenha" placeholder="Confirme sua senha" required>
+                    </div>
+                    <div class="field btn">
+                        <div class="btn-layer"></div>
+                        <input type="submit" onclick="registro()" value="Criar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    const loginText = document.querySelector(".title-text .login");
+    const loginForm = document.querySelector("form.login");
+    const loginBtn = document.querySelector("label.login");
+    const signupBtn = document.querySelector("label.signup");
+    const signupLink = document.querySelector("form .signup-link a");
+    signupBtn.onclick = (() => {
+        loginForm.style.marginLeft = "-50%";
+        loginText.style.marginLeft = "-50%";
+    });
+    loginBtn.onclick = (() => {
+        loginForm.style.marginLeft = "0%";
+        loginText.style.marginLeft = "0%";
+    });
+    signupLink.onclick = (() => {
+        signupBtn.click();
+        return false;
+    });
+
+    document.getElementById("loginForm").addEventListener("submit", function (event) {
+        event.preventDefault();
+        login();
+    });
+
+    function login() {
+        const username = document.getElementById("nomeLogin").value;
+        const password = document.getElementById("senhaLogin").value;
+
+        const login = {
+            Nome: username,
+            Senha: password
+        };
+
+        //envia dados de login para o servidor
+        fetch('https://localhost:7199/Usuarios', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(login)
+        })
+
+            .then(response => response.json())
+            .then(data => {
+                console.log(data); //true
+                if (data != '') {
+                    localStorage.setItem('authenticated', 'true');
+                    localStorage.setItem('IdAnimeUsuario', data.id);
+                    window.location.href = 'home.html'; //redireciona para outra pagina
+                } else {
+                    alert('Falha no login. verifique suas credenciais.');
+                }
+            })
+            .catch(error => {
+                console.error('Erro: ', error);
+            });
+    }
+
+    document.getElementById("registroForm").addEventListener("submit", function (event) {
+        event.preventDefault();
+        registro();
+    });
+
+    function registro() {
+        const addNome = document.getElementById('addNome').value;
+        const addSenha = document.getElementById('addSenha').value;
+        const repeteSenha = document.getElementById('repeteSenha').value;
+
+        if (!addNome) {
+            alert('Por favor, digite seu usuário.');
+            return;
+        }
+
+        if (!addSenha || !repeteSenha) {
+            alert('Por favor, digite sua senha e repita-a.');
+            return;
+        }
+
+        if (addSenha !== repeteSenha) {
+            alert('As senhas não são compatíveis.');
+            return;
+        }
+
+        const novoUsuario = {
+            Nome: addNome,
+            Senha: addSenha
+        };
+
+        fetch('https://localhost:7199/addUsuarios', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(novoUsuario)
+        })
+            .then(response => {
+                if (response.ok) {
+                    alert('Sua conta foi criada ! Faça login. ');
+                    document.getElementById('addNome').value = '';
+                    document.getElementById('addSenha').value = '';
+                    document.getElementById('repeteSenha').value = '';
+                }
+            })
+    }
+</script>
+
+</html>
