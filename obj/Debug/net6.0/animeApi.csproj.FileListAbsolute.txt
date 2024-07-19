@@ -1,0 +1,114 @@
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\bin\Debug\net6.0\appsettings.Development.json
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\bin\Debug\net6.0\appsettings.json
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\bin\Debug\net6.0\animeApi.exe
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\bin\Debug\net6.0\animeApi.deps.json
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\bin\Debug\net6.0\animeApi.runtimeconfig.json
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\bin\Debug\net6.0\animeApi.dll
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\bin\Debug\net6.0\animeApi.pdb
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\bin\Debug\net6.0\System.Data.SqlClient.dll
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\obj\Debug\net6.0\animeApi.csproj.AssemblyReference.cache
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\obj\Debug\net6.0\animeApi.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\obj\Debug\net6.0\animeApi.AssemblyInfoInputs.cache
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\obj\Debug\net6.0\animeApi.AssemblyInfo.cs
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\obj\Debug\net6.0\animeApi.csproj.CoreCompileInputs.cache
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\obj\Debug\net6.0\animeApi.MvcApplicationPartsAssemblyInfo.cs
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\obj\Debug\net6.0\animeApi.MvcApplicationPartsAssemblyInfo.cache
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\obj\Debug\net6.0\staticwebassets\msbuild.animeApi.Microsoft.AspNetCore.StaticWebAssets.props
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\obj\Debug\net6.0\staticwebassets\msbuild.build.animeApi.props
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.animeApi.props
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.animeApi.props
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\obj\Debug\net6.0\staticwebassets.pack.json
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\obj\Debug\net6.0\staticwebassets.build.json
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\obj\Debug\net6.0\staticwebassets.development.json
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\obj\Debug\net6.0\scopedcss\bundle\animeApi.styles.css
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\obj\Debug\net6.0\animeApi.csproj.CopyComplete
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\obj\Debug\net6.0\animeApi.dll
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\obj\Debug\net6.0\refint\animeApi.dll
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\obj\Debug\net6.0\animeApi.pdb
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\obj\Debug\net6.0\animeApi.genruntimeconfig.cache
+F:\Projetos Bacanas\Boh Joga\Teste Score\animeApi\animeApi\obj\Debug\net6.0\ref\animeApi.dll
+F:\ApiBecker\animeApi\animeApi\bin\Debug\net6.0\appsettings.Development.json
+F:\ApiBecker\animeApi\animeApi\bin\Debug\net6.0\appsettings.json
+F:\ApiBecker\animeApi\animeApi\bin\Debug\net6.0\animeApi.exe
+F:\ApiBecker\animeApi\animeApi\bin\Debug\net6.0\animeApi.deps.json
+F:\ApiBecker\animeApi\animeApi\bin\Debug\net6.0\animeApi.runtimeconfig.json
+F:\ApiBecker\animeApi\animeApi\bin\Debug\net6.0\animeApi.dll
+F:\ApiBecker\animeApi\animeApi\bin\Debug\net6.0\animeApi.pdb
+F:\ApiBecker\animeApi\animeApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+F:\ApiBecker\animeApi\animeApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\ApiBecker\animeApi\animeApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\ApiBecker\animeApi\animeApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\ApiBecker\animeApi\animeApi\bin\Debug\net6.0\System.Data.SqlClient.dll
+F:\ApiBecker\animeApi\animeApi\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+F:\ApiBecker\animeApi\animeApi\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+F:\ApiBecker\animeApi\animeApi\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+F:\ApiBecker\animeApi\animeApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\ApiBecker\animeApi\animeApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\ApiBecker\animeApi\animeApi\obj\Debug\net6.0\animeApi.csproj.AssemblyReference.cache
+F:\ApiBecker\animeApi\animeApi\obj\Debug\net6.0\animeApi.GeneratedMSBuildEditorConfig.editorconfig
+F:\ApiBecker\animeApi\animeApi\obj\Debug\net6.0\animeApi.AssemblyInfoInputs.cache
+F:\ApiBecker\animeApi\animeApi\obj\Debug\net6.0\animeApi.AssemblyInfo.cs
+F:\ApiBecker\animeApi\animeApi\obj\Debug\net6.0\animeApi.csproj.CoreCompileInputs.cache
+F:\ApiBecker\animeApi\animeApi\obj\Debug\net6.0\animeApi.MvcApplicationPartsAssemblyInfo.cs
+F:\ApiBecker\animeApi\animeApi\obj\Debug\net6.0\animeApi.MvcApplicationPartsAssemblyInfo.cache
+F:\ApiBecker\animeApi\animeApi\obj\Debug\net6.0\staticwebassets\msbuild.animeApi.Microsoft.AspNetCore.StaticWebAssets.props
+F:\ApiBecker\animeApi\animeApi\obj\Debug\net6.0\staticwebassets\msbuild.build.animeApi.props
+F:\ApiBecker\animeApi\animeApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.animeApi.props
+F:\ApiBecker\animeApi\animeApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.animeApi.props
+F:\ApiBecker\animeApi\animeApi\obj\Debug\net6.0\staticwebassets.pack.json
+F:\ApiBecker\animeApi\animeApi\obj\Debug\net6.0\staticwebassets.build.json
+F:\ApiBecker\animeApi\animeApi\obj\Debug\net6.0\staticwebassets.development.json
+F:\ApiBecker\animeApi\animeApi\obj\Debug\net6.0\scopedcss\bundle\animeApi.styles.css
+F:\ApiBecker\animeApi\animeApi\obj\Debug\net6.0\animeApi.csproj.CopyComplete
+F:\ApiBecker\animeApi\animeApi\obj\Debug\net6.0\animeApi.dll
+F:\ApiBecker\animeApi\animeApi\obj\Debug\net6.0\refint\animeApi.dll
+F:\ApiBecker\animeApi\animeApi\obj\Debug\net6.0\animeApi.pdb
+F:\ApiBecker\animeApi\animeApi\obj\Debug\net6.0\animeApi.genruntimeconfig.cache
+F:\ApiBecker\animeApi\animeApi\obj\Debug\net6.0\ref\animeApi.dll
+E:\DS2\PWII\animeApi\animeApi\bin\Debug\net6.0\appsettings.Development.json
+E:\DS2\PWII\animeApi\animeApi\bin\Debug\net6.0\appsettings.json
+E:\DS2\PWII\animeApi\animeApi\bin\Debug\net6.0\animeApi.exe
+E:\DS2\PWII\animeApi\animeApi\bin\Debug\net6.0\animeApi.deps.json
+E:\DS2\PWII\animeApi\animeApi\bin\Debug\net6.0\animeApi.runtimeconfig.json
+E:\DS2\PWII\animeApi\animeApi\bin\Debug\net6.0\animeApi.dll
+E:\DS2\PWII\animeApi\animeApi\bin\Debug\net6.0\animeApi.pdb
+E:\DS2\PWII\animeApi\animeApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\DS2\PWII\animeApi\animeApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\DS2\PWII\animeApi\animeApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\DS2\PWII\animeApi\animeApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\DS2\PWII\animeApi\animeApi\bin\Debug\net6.0\System.Data.SqlClient.dll
+E:\DS2\PWII\animeApi\animeApi\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+E:\DS2\PWII\animeApi\animeApi\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+E:\DS2\PWII\animeApi\animeApi\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+E:\DS2\PWII\animeApi\animeApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\DS2\PWII\animeApi\animeApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\DS2\PWII\animeApi\animeApi\obj\Debug\net6.0\animeApi.csproj.AssemblyReference.cache
+E:\DS2\PWII\animeApi\animeApi\obj\Debug\net6.0\animeApi.GeneratedMSBuildEditorConfig.editorconfig
+E:\DS2\PWII\animeApi\animeApi\obj\Debug\net6.0\animeApi.AssemblyInfoInputs.cache
+E:\DS2\PWII\animeApi\animeApi\obj\Debug\net6.0\animeApi.AssemblyInfo.cs
+E:\DS2\PWII\animeApi\animeApi\obj\Debug\net6.0\animeApi.csproj.CoreCompileInputs.cache
+E:\DS2\PWII\animeApi\animeApi\obj\Debug\net6.0\animeApi.MvcApplicationPartsAssemblyInfo.cs
+E:\DS2\PWII\animeApi\animeApi\obj\Debug\net6.0\animeApi.MvcApplicationPartsAssemblyInfo.cache
+E:\DS2\PWII\animeApi\animeApi\obj\Debug\net6.0\staticwebassets\msbuild.animeApi.Microsoft.AspNetCore.StaticWebAssets.props
+E:\DS2\PWII\animeApi\animeApi\obj\Debug\net6.0\staticwebassets\msbuild.build.animeApi.props
+E:\DS2\PWII\animeApi\animeApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.animeApi.props
+E:\DS2\PWII\animeApi\animeApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.animeApi.props
+E:\DS2\PWII\animeApi\animeApi\obj\Debug\net6.0\staticwebassets.pack.json
+E:\DS2\PWII\animeApi\animeApi\obj\Debug\net6.0\staticwebassets.build.json
+E:\DS2\PWII\animeApi\animeApi\obj\Debug\net6.0\staticwebassets.development.json
+E:\DS2\PWII\animeApi\animeApi\obj\Debug\net6.0\scopedcss\bundle\animeApi.styles.css
+E:\DS2\PWII\animeApi\animeApi\obj\Debug\net6.0\animeApi.csproj.CopyComplete
+E:\DS2\PWII\animeApi\animeApi\obj\Debug\net6.0\animeApi.dll
+E:\DS2\PWII\animeApi\animeApi\obj\Debug\net6.0\refint\animeApi.dll
+E:\DS2\PWII\animeApi\animeApi\obj\Debug\net6.0\animeApi.pdb
+E:\DS2\PWII\animeApi\animeApi\obj\Debug\net6.0\animeApi.genruntimeconfig.cache
+E:\DS2\PWII\animeApi\animeApi\obj\Debug\net6.0\ref\animeApi.dll
